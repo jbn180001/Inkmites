@@ -10213,8 +10213,22 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
+
+@font-face {
+    font-family: 'annabel_1regular';
+    src: url('annabel_1-webfont.woff2') format('woff2'),
+         url('annabel_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .masthead h1 {
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'annabel_1regular';
+  src: url('css/annabel_1-webfont.woff2') format('woff2'),
+       url('css/annabel_1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
